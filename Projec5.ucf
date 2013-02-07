@@ -1,0 +1,35 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "anode[0]" LOC = "F17"; # Bank = 1, Pin name = IO_L19N_1, Type = I/O, Sch name = AN0
+NET "anode[1]" LOC = "H17"; # Bank = 1, Pin name = IO_L16N_1/A0, Type = DUAL, Sch name = AN1
+NET "anode[2]" LOC = "C18"; # Bank = 1, Pin name = IO_L24P_1/LDC1, Type = DUAL, Sch name = AN2
+NET "anode[3]" LOC = "F15"; # Bank = 1, Pin name = IO_L21P_1, Type = I/O, Sch name = AN3
+
+NET "seg7[0]" LOC = "L18"; # Bank = 1, Pin name = IO_L10P_1, Type = I/O, Sch name = CA
+NET "seg7[1]" LOC = "F18"; # Bank = 1, Pin name = IO_L19P_1, Type = I/O, Sch name = CB
+NET "seg7[2]" LOC = "D17"; # Bank = 1, Pin name = IO_L23P_1/HDC, Type = DUAL, Sch name = CC
+NET "seg7[3]" LOC = "D16"; # Bank = 1, Pin name = IO_L23N_1/LDC0, Type = DUAL, Sch name = CD
+NET "seg7[4]" LOC = "G14"; # Bank = 1, Pin name = IO_L20P_1, Type = I/O, Sch name = CE
+NET "seg7[5]" LOC = "J17"; # Bank = 1, Pin name = IO_L13P_1/A6/RHCLK4/IRDY1, Type = RHCLK/DUAL, Sch name = CF
+NET "seg7[6]" LOC = "H14"; # Bank = 1, Pin name = IO_L17P_1, Type = I/O, Sch name = CG
+NET "seg7[7]" LOC = "C17"; # Bank = 1, Pin name = IO_L24N_1/LDC2, Type = DUAL, Sch name = DP
+
+NET "clk50"   LOC = "B8"; # Bank = 0, Pin name = IP_L13P_0/GCLK8, Type = GCLK, Sch name = GCLK0
+
+NET "pushbutton[0]" LOC = "B18"; # Bank = 1, Pin name = IP, Type = INPUT, Sch name = BTN0
+NET "pushbutton[1]" LOC = "D18"; # Bank = 1, Pin name = IP/VREF_1, Type = VREF, Sch name = BTN1
+NET "pushbutton[2]" LOC = "E18"; # Bank = 1, Pin name = IP, Type = INPUT, Sch name = BTN2
+NEt "pushbutton[3]" LOC = "H13"; # Bank = 1, Pin name = IP, Type = INPUT, Sch name = BTN3
+
+NET "sliderswitches[0]" LOC = "G18"; # Bank = 1, Pin name = IP, Type = INPUT, Sch name = SW0
+NET "sliderswitches[1]" LOC = "H18"; # Bank = 1, Pin name = IP/VREF_1, Type = VREF, Sch name = SW1
+NET "sliderswitches[2]" LOC = "K18"; # Bank = 1, Pin name = IP, Type = INPUT, Sch name = SW2
+NET "sliderswitches[3]" LOC = "K17"; # Bank = 1, Pin name = IP, Type = INPUT, Sch name = SW3
+
+
+NET "leds[0]"  LOC = "J14"; # Bank = 1, Pin name = IO_L14N_1/A3/RHCLK7, Type = RHCLK/DUAL, Sch name = JD10/LD0
+NET "leds[1]"  LOC = "J15"; # Bank = 1, Pin name = IO_L14P_1/A4/RHCLK6, Type = RHCLK/DUAL, Sch name = JD9/LD1
+NET "leds[2]"  LOC = "K15"; # Bank = 1, Pin name = IO_L12P_1/A8/RHCLK2, Type = RHCLK/DUAL, Sch name = JD8/LD2
+
+
